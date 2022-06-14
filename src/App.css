@@ -6,7 +6,11 @@
 
 html,
 body {
-  background: #000 url('https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/things-to-do/dining/resort-dining/polynesian-resort/kona-cafe/kona-cafe-00.jpg?1603145936298') no-repeat center center/cover;
+  
+  background: #251E24;
+  background: -webkit-linear-gradient(top left, #251E24, #7F7C77);
+  background: -moz-linear-gradient(top left, #251E24, #7F7C77);
+  background: linear-gradient(to bottom right, #251E24, #7F7C77);
   height: 100vh;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;

@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`https://menu-training-api.herokuapp.com/api/menuItems`)
+      const result = await axios(`https://menu-training-api-template.herokuapp.com/api/menuItems`)
 
       console.log(result.data)
       setItems(result.data)
